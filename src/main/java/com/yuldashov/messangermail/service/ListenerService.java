@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class ListnerService {
+public class ListenerService {
     private static final String TOPIC_NAME = "EMAIL_SENDING_TASKS";
     private static final String GROUP_ID = "mail-messenger-group";
     private final MailService mailService;
